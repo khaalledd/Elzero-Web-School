@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Form</title>
+</head>
+<body>
+    <h1>Regestration Form</h1>
+    <form action="test.py" method="POST" >
+        <div>
+            <label>Username</label>
+            <br>
+            <input type="text" required placeholder="Enter a username" name="username">
+        </div>
+        <hr>
+        <div>
+            <label>Password</label>
+            <br>
+            <input type="password" required placeholder="Enter a complex password" name="password" >
+        </div>
+        <hr>
+        <div>
+            <label>Email</label>
+            <br>
+            <input type="email" placeholder="Write a valid email" required name="email"  >
+        </div>
+        <hr>
+        <div>
+            <label>Subject</label>
+            <br>
+            <input type="text" required name="Subject" >
+        </div>
+        <hr>
+        <div>
+            <label >color</label>
+            <br>
+            <input type="color" name="color">
+        </div>
+        <hr>
+        <div>
+            <label >Range</label>
+            <br>
+            <input type="range" name="range" value="10" step="10">
+        </div>
+        <hr>
+        <input type="text" hidden name="Subject">
+        <div>
+            <label >Number</label>
+            <br>
+            <input type="number" name=Num" min="10" max="60">
+        </div>
+        <hr>
+        <div>
+            <input type="submit" name="submit" value="save">
+            <input type="reset" name="reset">
+        </div>
+    </form>
+</body>
+</html>
